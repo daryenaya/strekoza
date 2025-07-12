@@ -1,0 +1,46 @@
+/* src/assets/fonts.css */
+@font-face {
+  font-family: 'Petrov Sans';
+  src: local('Petrov Sans'), 
+       url('./fonts/PetrovSans-Trial-Regular.woff2') format('woff2');
+  font-weight: 400; /* normal */
+  font-style: normal;
+  font-display: swap; /* Для лучшей производительности */
+}
+
+@font-face {
+  font-family: 'Petrov Sans';
+  src: local('Petrov Sans Italic'), 
+       url('./fonts/PetrovSans-Trial-RegularItalic.woff2') format('woff2');
+  font-weight: 400; /* normal */
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Petrov Sans';
+  src: local('Petrov Sans Bold'), 
+       url('./fonts/PetrovSans-Trial-Bold.woff2') format('woff2');
+  font-weight: 700; /* bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Petrov Sans';
+  src: local('Petrov Sans Bold Italic'), 
+       url('./fonts/PetrovSans-Trial-BoldItalic.woff2') format('woff2');
+  font-weight: 700; /* bold */
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Petrov Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  font-weight: 400; /* Обычное начертание по умолчанию */
+  line-height: 1.6;
+}
